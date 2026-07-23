@@ -1,7 +1,10 @@
-Panel
-TextureRect
 Label
-ColorRect
 VBoxContainer
+TextureRect
+HBoxContainer
+MarginContainer
 Button
+CenterContainer
+ColorRect
+Panel
 Control
