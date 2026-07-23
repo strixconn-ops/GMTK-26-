@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6xk17o1iqb20"
-path="res://.godot/imported/download-Photoroom.png-0bcd8f917567b51c5685d37085ec3d91.ctex"
+path="res://.godot/imported/download-Photoroom.png-9ebc86eb4edae719c2ba640f16c5725d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://download-Photoroom.png"
-dest_files=["res://.godot/imported/download-Photoroom.png-0bcd8f917567b51c5685d37085ec3d91.ctex"]
+source_file="res://sprites and fonts/download-Photoroom.png"
+dest_files=["res://.godot/imported/download-Photoroom.png-9ebc86eb4edae719c2ba640f16c5725d.ctex"]
 
 [params]
 
