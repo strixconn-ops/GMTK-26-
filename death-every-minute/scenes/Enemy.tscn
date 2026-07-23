@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://cu820mke7valj"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=19899385]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1795922617]

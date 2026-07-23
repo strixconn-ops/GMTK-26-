@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://8v3oi28rehny"]
 
-[ext_resource type="Texture2D" uid="uid://c6fr1aha3avj7" path="res://sprites and fonts/character sprite.png" id="1_p0vlq"]
+[ext_resource type="Texture2D" uid="uid://cjrmwh4v3sbi6" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png" id="1_p0vlq"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1776613088]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1417773469]
 texture = ExtResource("1_p0vlq")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=599087644]
