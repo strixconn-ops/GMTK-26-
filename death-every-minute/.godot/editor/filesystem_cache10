@@ -1,8 +1,10 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784803202
-::res://scenes/::1784803193
+::res://::1784803713
+::res://scenes/::1784803713
 main_menu.tscn::PackedScene::3886698126838381170::1784803193::0::1::::<><><>0<>0<><>::uid://dfyiikwxllxi1::::res://sprites and fonts/Curse of the Zombie.ttf<>uid://6xk17o1iqb20::::res://sprites and fonts/download-Photoroom.png
-::res://sprites and fonts/::1784803202
+Player.tscn::PackedScene::2361309313221226366::1784803569::0::1::::<><><>0<>0<><>::
+::res://sprites and fonts/::1784803713
+character sprite.png::CompressedTexture2D::6960096039305135014::1784803704::1784803713::1::::<><><>0<>0<>d882727dfa365a0dd4ccf636192e1b34<>res://.godot/imported/character sprite.png-141cf1d19f2c759a099538d15bec1480.ctex::
 Curse of the Zombie.ttf::FontFile::7560251917939642862::1784802946::1784803188::1::::<><><>0<>0<>6deab5a3eec7da10296bf06dd00a145a<>res://.godot/imported/Curse of the Zombie.ttf-36c3a663d5596d1997e0091bcbabae2f.fontdata::
 download-Photoroom.png::CompressedTexture2D::2223990145258679795::1784802946::1784803194::1::::<><><>0<>0<>3862e691906d1492bcd97b2a88bcce72<>res://.godot/imported/download-Photoroom.png-9ebc86eb4edae719c2ba640f16c5725d.ctex::
 download.webp::CompressedTexture2D::2032388688960271351::1784802946::1784803199::1::::<><><>0<>0<>d985977e2b71837b130261246aedad38<>res://.godot/imported/download.webp-3dbbd71753bae80bd0646e889c749f58.ctex::
