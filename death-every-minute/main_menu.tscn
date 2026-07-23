@@ -1,7 +1,15 @@
 [gd_scene format=3 uid="uid://bvm0l57aive3c"]
 
+[ext_resource type="FontFile" uid="uid://dfyiikwxllxi1" path="res://Curse of the Zombie.ttf" id="1_7vrkn"]
+[ext_resource type="Texture2D" uid="uid://6xk17o1iqb20" path="res://download-Photoroom.png" id="2_fu7sn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nogid"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xenfi"]
+texture = ExtResource("2_fu7sn")
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8g5uu"]
-bg_color = Color(18.892157, 18.892157, 18.892157, 1)
+bg_color = Color(0.9297146, 0.9297147, 0.9297146, 1)
 corner_radius_top_left = 16
 corner_radius_top_right = 16
 corner_radius_bottom_right = 16
@@ -9,6 +17,28 @@ corner_radius_bottom_left = 16
 shadow_color = Color(0, 0, 0, 0.9607843)
 shadow_size = 5
 shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7vrkn"]
+bg_color = Color(0.412153, 0.41215235, 0.41215214, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.9607843)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fu7sn"]
+bg_color = Color(0.21230495, 0.2123048, 0.21230477, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.9607843)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fu7sn"]
 
 [node name="Main Menu" type="Control" unique_id=229154848]
 layout_mode = 3
@@ -20,6 +50,51 @@ anchor_bottom = 0.5
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1282313626]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -320.0
+offset_right = 576.0
+offset_bottom = 320.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.38039216, 0.87058824, 0.16470589, 1)
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=518054964]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -336.0
+offset_top = 24.0
+offset_right = 345.0
+offset_bottom = 112.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.50315577, 0.99999994, 0.2446042, 0.95686275)
+theme_override_fonts/font = ExtResource("1_7vrkn")
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxEmpty_nogid")
+text = "DEATH EVERY MINUTE"
+
+[node name="Panel" type="Panel" parent="ColorRect/Label" unique_id=1307109344]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -279.0
+offset_top = 51.0
+offset_right = -230.0
+offset_bottom = 447.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_xenfi")
+
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=142252288]
 layout_mode = 1
 anchors_preset = 8
@@ -28,33 +103,51 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -184.0
-offset_top = -86.0
+offset_top = -97.5
 offset_right = 184.0
-offset_bottom = 86.0
+offset_bottom = 97.5
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/separation = 8
+theme_override_constants/separation = 20
 
 [node name="Button" type="Button" parent="VBoxContainer" unique_id=779149520]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.79482836, 0.79482794, 0.794828, 1)
+theme_override_colors/font_pressed_color = Color(0.8175215, 0.81752115, 0.81752115, 1)
+theme_override_colors/font_hover_color = Color(0.8175213, 0.8175213, 0.81752115, 1)
 theme_override_font_sizes/font_size = 32
 theme_override_styles/normal = SubResource("StyleBoxFlat_8g5uu")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_7vrkn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_fu7sn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fu7sn")
 text = "START GAME"
 
 [node name="Button2" type="Button" parent="VBoxContainer" unique_id=679600277]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.79482836, 0.79482794, 0.794828, 1)
+theme_override_colors/font_pressed_color = Color(0.8175215, 0.81752115, 0.81752115, 1)
+theme_override_colors/font_hover_color = Color(0.8175213, 0.8175213, 0.81752115, 1)
 theme_override_font_sizes/font_size = 32
 theme_override_styles/normal = SubResource("StyleBoxFlat_8g5uu")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_7vrkn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_fu7sn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fu7sn")
 text = "OPTIONS"
 
 [node name="Button3" type="Button" parent="VBoxContainer" unique_id=1967913226]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.79482836, 0.79482794, 0.794828, 1)
+theme_override_colors/font_pressed_color = Color(0.8175215, 0.81752115, 0.81752115, 1)
+theme_override_colors/font_hover_color = Color(0.8175213, 0.8175213, 0.81752115, 1)
 theme_override_font_sizes/font_size = 32
 theme_override_styles/normal = SubResource("StyleBoxFlat_8g5uu")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_7vrkn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_fu7sn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fu7sn")
 text = "EXIT"
