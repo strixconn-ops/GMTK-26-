@@ -1,3 +1,7 @@
+Sprite2D
+CharacterBody2D
+Panel
+TextureRect
 Label
 VBoxContainer
 TextureRect

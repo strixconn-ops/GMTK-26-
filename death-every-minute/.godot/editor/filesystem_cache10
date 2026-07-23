@@ -1,13 +1,27 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784825427
-Curse of the Zombie.ttf::FontFile::7560251917939642862::1784790752::1784790741::1::::<><><>0<>0<>b55e348b1d966c6d97939f17ca58512f<>res://.godot/imported/Curse of the Zombie.ttf-0678c310eb1dbf508f8ed177ed0bffad.fontdata::
-download-Photoroom.png::CompressedTexture2D::2223990145258679795::1784792701::1784792701::1::::<><><>0<>0<>6b5019650a8f7bd20400a44d35ba55e1<>res://.godot/imported/download-Photoroom.png-0bcd8f917567b51c5685d37085ec3d91.ctex::
-download-Picsart-AiImageEnhancer-Photoroom.png::CompressedTexture2D::927515400946475010::1784825427::1784825427::1::::<><><>0<>0<>00b02174a976cc2080d558e23ce3e569<>res://.godot/imported/download-Picsart-AiImageEnhancer-Photoroom.png-f094d1a6c971cb173d52be7d6012a208.ctex::
-download.webp::CompressedTexture2D::2032388688960271351::1784792249::1784792250::1::::<><><>0<>0<>7be9cf130d0fdbb90c7986d190a26f94<>res://.godot/imported/download.webp-a11ba0141f5e4837e9a02466fe0a167a.ctex::
-ERODED PERSONAL USE.ttf::FontFile::5951162258742735445::1784805353::1784805353::1::::<><><>0<>0<>da9fd9f04546713397272f82937fdda5<>res://.godot/imported/ERODED PERSONAL USE.ttf-4eb34e756834c34a0e2743a52f48ca55.fontdata::
-Evil Highway.ttf::FontFile::3531955325588261713::1784802906::1784802907::1::::<><><>0<>0<>65f9022d9e282432aa7d554450f2957c<>res://.godot/imported/Evil Highway.ttf-96fc4dce8bf44ae3960e17f9edb0eb49.fontdata::
-gun-icon-svg-download-png-1191216.webp::CompressedTexture2D::6635929106987064294::1784805738::1784805738::1::::<><><>0<>0<>71487679b919ffc3ccf293a4a9504164<>res://.godot/imported/gun-icon-svg-download-png-1191216.webp-da51ea29711637eaf8e7976506c81d4b.ctex::
-health-icon-svg-download-png-6872925.webp::CompressedTexture2D::587155676458558949::1784804389::1784804389::1::::<><><>0<>0<>e071130083b2fa36d074ec78381f9ab1<>res://.godot/imported/health-icon-svg-download-png-6872925.webp-3a23259887672b128e8744731e7c7511.ctex::
-icon.svg::CompressedTexture2D::3615961581128930747::1784774413::1784774649::1::::<><><>0<>0<>ee5a7029958e7ef6858761b4213df769<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main_menu.tscn::PackedScene::3886698126838381170::1784801251::0::1::::<><><>0<>0<><>::uid://dfyiikwxllxi1::::res://Curse of the Zombie.ttf<>uid://6xk17o1iqb20::::res://download-Photoroom.png
-OXIDO-Eroded-FFP.ttf::FontFile::7596788250969807007::1784805953::1784805953::1::::<><><>0<>0<>1a13c81a6401f503ac40ab925404c059<>res://.godot/imported/OXIDO-Eroded-FFP.ttf-ddb95ba2e182558b0606e131c406502f.fontdata::
+::res://::1784818074
+::res://scenes/::1784818443
+main_menu.tscn::PackedScene::3886698126838381170::1784803193::0::1::::<><><>0<>0<><>::uid://dfyiikwxllxi1::::res://sprites and fonts/Curse of the Zombie.ttf<>uid://6xk17o1iqb20::::res://sprites and fonts/download-Photoroom.png
+Player.tscn::PackedScene::2361309313221226366::1784803897::0::1::::<><><>0<>0<><>::uid://c6fr1aha3avj7::::res://sprites and fonts/character sprite.png
+Enemy.tscn::PackedScene::6246427355636715431::1784818443::0::1::::<><><>0<>0<><>::
+::res://sprites and fonts/::1784818612
+character sprite.png::CompressedTexture2D::6960096039305135014::1784803704::1784803713::1::::<><><>0<>0<>d882727dfa365a0dd4ccf636192e1b34<>res://.godot/imported/character sprite.png-141cf1d19f2c759a099538d15bec1480.ctex::
+Curse of the Zombie.ttf::FontFile::7560251917939642862::1784802946::1784803188::1::::<><><>0<>0<>6deab5a3eec7da10296bf06dd00a145a<>res://.godot/imported/Curse of the Zombie.ttf-36c3a663d5596d1997e0091bcbabae2f.fontdata::
+download-Photoroom.png::CompressedTexture2D::2223990145258679795::1784802946::1784803194::1::::<><><>0<>0<>3862e691906d1492bcd97b2a88bcce72<>res://.godot/imported/download-Photoroom.png-9ebc86eb4edae719c2ba640f16c5725d.ctex::
+download.webp::CompressedTexture2D::2032388688960271351::1784802946::1784803199::1::::<><><>0<>0<>d985977e2b71837b130261246aedad38<>res://.godot/imported/download.webp-3dbbd71753bae80bd0646e889c749f58.ctex::
+icon.svg::CompressedTexture2D::3615961581128930747::1784802946::1784803203::1::::<><><>0<>0<>c690074a2ae27c3831a2e5b6142c7ca4<>res://.godot/imported/icon.svg-9c3c7df1ec3ae53e0dc6ac9b33b8c51c.ctex::
+::res://sprites and fonts/assets/::1784818623
+::res://sprites and fonts/assets/Organized separated sprites/::1784818623
+::res://sprites and fonts/assets/Organized separated sprites/90┬║ Rotatable Bridge Sprites/::1784818613
+Zombie-Tileset---_0106_Capa-107.png::CompressedTexture2D::990749077373544762::1784818612::1784818635::1::::<><><>0<>0<>84a23e6e2ce789ec462c35620ce58805<>res://.godot/imported/Zombie-Tileset---_0106_Capa-107.png-58edd627d8536f7c2a1ca4d1ef1f6a63.ctex::
+Zombie-Tileset---_0107_Capa-108.png::CompressedTexture2D::1597022302741558875::1784818612::1784818635::1::::<><><>0<>0<>17d13ce966269646b6f34bc39fcd6784<>res://.godot/imported/Zombie-Tileset---_0107_Capa-108.png-05157bbc21d7f4ef1bd89b3c2979a968.ctex::
+Zombie-Tileset---_0108_Capa-109.png::CompressedTexture2D::6755603964859434176::1784818613::1784818635::1::::<><><>0<>0<>e3f305bf7535537be94446414cc61292<>res://.godot/imported/Zombie-Tileset---_0108_Capa-109.png-12b52b4c32e5291b71d8d2010804a98d.ctex::
+::res://sprites and fonts/assets/Organized separated sprites/Big Zombie Walking Animation Frames/::1784818613
+Zombie-Tileset---_0412_Capa-413.png::CompressedTexture2D::6952662131756576704::1784818613::1784818635::1::::<><><>0<>0<>cc4cb1d12569f13e25cca1fadf0a3687<>res://.godot/imported/Zombie-Tileset---_0412_Capa-413.png-e91dd1dd0496a37f8353d809aa67e5bd.ctex::
+Zombie-Tileset---_0413_Capa-414.png::CompressedTexture2D::5296203907242200109::1784818613::1784818635::1::::<><><>0<>0<>2286091b5d0d2feb8681c2c2820ee05b.ctex::
+Zombie-Tileset---_0414_Capa-415.png::CompressedTexture2D::4673612553567554247::1784818613::1784818635::1::::<><><>0<>0<>0c867a08af6ddfd9a62f7001<>res://.godot/imported/Zombie-Tileset---_0414_Capa-415.png-96cdd334e660f5f88dc9c0e44ee8a6b2.ctex::
+Zombie-Tileset---_0415_Capa-416.png::CompressedTexture2D::2921821156767592567::1784818613::1784818635::1::::<><><>0<>0<>0eac5bfe671d482ad8f210ce0dc51036<>res://.godot/imported/Zombie-Tileset---_0415_Capa-416.png-ff3815cea92d725df7815cea92d7a5bd.ctex::
+Zombie-Tileset---_0416_Capa-417.png::CompressedTexture2D::5778945930846864577::1784818613::1784818635::1::::<><><>0<>0<>5df98b8445f094e0c1a538fcbd707b72<>res://.godot/imported/Zombie-Tileset---_0416_Capa-417.png-944047b5334669a92edd39878c3d6d9e.ctex::
+Zombie-Tileset---_0417_Capa-418.png::CompressedTexture2D::5036172754063748694::1784818613::1784818635::1::::<><><>0<>0<>d10e214a047e049d525eb8be4cb0d7c1<>res://.godot/imported/Zombie-Tileset---_0417_Capa-418.png-d400f45f391beb49037c0e2905b65941.ctex::
+Zombie-Tileset---_0418_Capa-419.png::CompressedTexture2D::7681647365320442079::1784818613::1784818635::1::::<><><>0<>0<>9b224fbcb7e842a356f825451e8392ec<>res://.godot/imported/Zombie-Tileset---_0418_Capa-419.png-3fcf53ddd1cc1962233b1cdfd35f0946.ctex::
+Zombie-Tileset---_0419_Capa-420.png::CompressedTexture2D::5733998520734039307::1784818613::1784818635::1::::<><><>0<>0<>490de712ea742da18b1891de7b5fa3f3<>res://.godot/imported/Zombie-Tileset---_0419_Capa-420.png-f9f7b54cbce49b7c8e3db64e53b17c9f.ctex::
