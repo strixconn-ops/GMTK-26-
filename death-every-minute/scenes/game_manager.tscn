@@ -1,7 +1,0 @@
-[gd_scene format=3 uid="uid://dqtb4hswvn7xn"]
-
-[ext_resource type="PackedScene" uid="uid://s3fwqr84oti" path="res://scenes/upgrade_manager.tscn" id="1_hwd4i"]
-
-[node name="round timer" type="Timer" unique_id=1528260351]
-
-[node name="UpgradeMenu" parent="." unique_id=2131040229 instance=ExtResource("1_hwd4i")]

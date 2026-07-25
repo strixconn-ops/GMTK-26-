@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://iemk3aj5t718"]
+
+[ext_resource type="Script" uid="uid://d1dwaklqoipan" path="res://scripts/map.gd" id="1_4xfga"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_nxtc6"]
+
+[node name="Map" type="Node2D" unique_id=1747024559]
+script = ExtResource("1_4xfga")
+
+[node name="GroundTiles" type="TileMapLayer" parent="." unique_id=1089931415]
+
+[node name="SafeZone" type="Area2D" parent="." unique_id=554271411]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SafeZone" unique_id=449840744]
+position = Vector2(-6, 1)
+shape = SubResource("WorldBoundaryShape2D_nxtc6")
+
+[node name="ZoneVisual" type="Polygon2D" parent="SafeZone" unique_id=445191749]

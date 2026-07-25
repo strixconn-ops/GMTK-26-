@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://d10f0s1crysh6" path="res://scripts/game_over.gd" id="1_racf3"]
 [ext_resource type="FontFile" uid="uid://dfyiikwxllxi1" path="res://sprites and fonts/Curse of the Zombie.ttf" id="1_yxx3c"]
-[ext_resource type="FontFile" uid="uid://cq111jrctxmft" path="res://ERODED PERSONAL USE.ttf" id="2_8u835"]
-[ext_resource type="Texture2D" uid="uid://dtoy7fnh2ixwd" path="res://WhatsApp Image 2026-07-25 at 09.31.22.jpeg" id="2_ccer4"]
+[ext_resource type="FontFile" uid="uid://cq111jrctxmft" path="res://sprites and fonts/ERODED PERSONAL USE.ttf" id="2_8u835"]
+[ext_resource type="Texture2D" uid="uid://dtoy7fnh2ixwd" path="res://sprites and fonts/WhatsApp Image 2026-07-25 at 09.31.22.jpeg" id="2_ccer4"]
 
 [node name="GameOver" type="Control" unique_id=1314110433]
 layout_mode = 3

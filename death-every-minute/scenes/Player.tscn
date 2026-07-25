@@ -1,15 +1,18 @@
 [gd_scene format=3 uid="uid://8v3oi28rehny"]
 
 [ext_resource type="Script" uid="uid://2gppov0f86gt" path="res://scripts/movement.gd" id="1_bruh7"]
-[ext_resource type="Texture2D" uid="uid://cjrmwh4v3sbi6" path="res://Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png" id="1_p0vlq"]
-[ext_resource type="Texture2D" uid="uid://m57amqpjahc1" path="res://Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png" id="3_6eyey"]
-[ext_resource type="Texture2D" uid="uid://cjksyqg1kftvt" path="res://Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png" id="3_d3wef"]
-[ext_resource type="Texture2D" uid="uid://vpxu8cw51vj0" path="res://Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png" id="4_d3wef"]
-[ext_resource type="Texture2D" uid="uid://dtbp3byyr524o" path="res://Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png" id="4_o4126"]
-[ext_resource type="Texture2D" uid="uid://ck71ptx601fsy" path="res://Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png" id="5_lkdrv"]
-[ext_resource type="Texture2D" uid="uid://drn36l0q8v062" path="res://Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png" id="6_p7iby"]
-[ext_resource type="Texture2D" uid="uid://eid68hy7dxga" path="res://Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png" id="7_0rnld"]
-[ext_resource type="Texture2D" uid="uid://cwuu0wop1pvdl" path="res://Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png" id="8_srp4u"]
+[ext_resource type="Texture2D" uid="uid://cjrmwh4v3sbi6" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png" id="1_p0vlq"]
+[ext_resource type="Texture2D" uid="uid://m57amqpjahc1" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png" id="3_6eyey"]
+[ext_resource type="Texture2D" uid="uid://cjksyqg1kftvt" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png" id="3_d3wef"]
+[ext_resource type="Texture2D" uid="uid://vpxu8cw51vj0" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png" id="4_d3wef"]
+[ext_resource type="Texture2D" uid="uid://dtbp3byyr524o" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png" id="4_o4126"]
+[ext_resource type="Texture2D" uid="uid://ck71ptx601fsy" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png" id="5_lkdrv"]
+[ext_resource type="Texture2D" uid="uid://drn36l0q8v062" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png" id="6_p7iby"]
+[ext_resource type="Texture2D" uid="uid://eid68hy7dxga" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png" id="7_0rnld"]
+[ext_resource type="Texture2D" uid="uid://cwuu0wop1pvdl" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png" id="8_srp4u"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_228yj"]
+radius = 5.0990195
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ww5lp"]
 animations = [{
@@ -74,11 +77,20 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_ww5lp"]
-radius = 4.1231055
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bwqmi"]
+radius = 4.0
+height = 12.0
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1776613088]
+[sub_resource type="CircleShape2D" id="CircleShape2D_bwqmi"]
+radius = 53.366657
+
+[node name="Player" type="CharacterBody2D" unique_id=1776613088]
 script = ExtResource("1_bruh7")
+
+[node name="HurtBox" type="Area2D" parent="." unique_id=2000883988]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox" unique_id=888804724]
+shape = SubResource("CircleShape2D_228yj")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1417773469]
 texture = ExtResource("1_p0vlq")
@@ -88,7 +100,16 @@ sprite_frames = SubResource("SpriteFrames_ww5lp")
 animation = &"walk back"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1882263733]
-shape = SubResource("CircleShape2D_ww5lp")
+shape = SubResource("CapsuleShape2D_bwqmi")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1603597009]
 zoom = Vector2(3, 3)
+
+[node name="PlayerStats" type="Node" parent="." unique_id=161541282]
+
+[node name="MagnetArea" type="Area2D" parent="." unique_id=269757829]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MagnetArea" unique_id=1128172803]
+shape = SubResource("CircleShape2D_bwqmi")
+
+[node name="WeaponPivot" type="Node2D" parent="." unique_id=1043090127]

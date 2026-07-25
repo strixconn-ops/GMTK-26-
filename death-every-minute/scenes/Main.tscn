@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://q68j6mgl3k5h"]
+
+[ext_resource type="PackedScene" uid="uid://c45oax3booax2" path="res://scenes/shooter.tscn" id="1_c01mt"]
+[ext_resource type="Script" uid="uid://dcxy0vxwon3oa" path="res://scripts/game_manager.gd" id="1_elqb8"]
+[ext_resource type="Script" uid="uid://cj1m7gw37dvnh" path="res://scripts/WorldEnvironment.gd" id="1_nxtc6"]
+[ext_resource type="PackedScene" uid="uid://blu4r1361pmx6" path="res://scenes/spawn_timer.tscn" id="2_0bbpv"]
+[ext_resource type="PackedScene" uid="uid://cmgjv0ywwggfg" path="res://scenes/round_manager.tscn" id="3_rarhs"]
+[ext_resource type="PackedScene" uid="uid://8v3oi28rehny" path="res://scenes/Player.tscn" id="4_rarhs"]
+[ext_resource type="PackedScene" uid="uid://iemk3aj5t718" path="res://scenes/map.tscn" id="6_nxtc6"]
+
+[sub_resource type="Environment" id="Environment_jlsqs"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_q8u5g"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" unique_id=1716581147]
+environment = SubResource("Environment_jlsqs")
+camera_attributes = SubResource("CameraAttributesPractical_q8u5g")
+script = ExtResource("1_nxtc6")
+
+[node name="Enemey" parent="." unique_id=56853108 instance=ExtResource("1_c01mt")]
+
+[node name="GameManager" type="Node" parent="." unique_id=1878002]
+script = ExtResource("1_elqb8")
+
+[node name="Projectiles" type="Node2D" parent="." unique_id=680256479]
+
+[node name="pickups" type="Node2D" parent="." unique_id=1216848899]
+
+[node name="spawn timer" parent="." unique_id=1112280668 instance=ExtResource("2_0bbpv")]
+
+[node name="round timer" parent="." unique_id=1615673347 instance=ExtResource("3_rarhs")]
+
+[node name="Player" parent="." unique_id=1776613088 instance=ExtResource("4_rarhs")]
+position = Vector2(-1, -3)
+
+[node name="Map" parent="." unique_id=1747024559 instance=ExtResource("6_nxtc6")]

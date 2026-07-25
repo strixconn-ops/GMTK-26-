@@ -1,8 +1,9 @@
-res://scenes/game_over.tscn
-res://scripts/game_over.gd
-res://scenes/main_menu.tscn
-res://scripts/main_menu.gd
-res://scenes/game_manager.tscn
-res://scenes/Upgrade_manager.tscn
-res://scenes/upgrade_manager.tscn
-res://scenes/round_manager.tscn
+res://scenes/Main.tscn
+res://scenes/Player.tscn
+res://scenes/shooter.tscn
+res://scripts/shooter.gd
+res://scripts/WorldEnvironment.gd
+res://scenes/map.tscn
+res://scripts/map.gd
+res://scripts/enemy_spawner.gd
+res://scripts/game_manager.gd

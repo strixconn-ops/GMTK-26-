@@ -1,13 +1,85 @@
 [gd_scene format=3 uid="uid://c45oax3booax2"]
 
-[ext_resource type="Script" uid="uid://7p8vjglwlvhg" path="res://scripts/shooter.gd" id="1_gt117"]
+[sub_resource type="GDScript" id="GDScript_7ubnb"]
+script/source = "
+extends CharacterBody2D
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_ww5lp"]
+# --- Enemy Stats ---
+@export var base_speed: float = 100.0
+@export var max_health: float = 10.0
+@export var damage: float = 1.0
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=56853108]
+var current_health: float
+var player: Node2D = null
+
+# --- Node References ---
+@onready var evolve_timer = $EvolveTimer
+
+func _ready() -> void:
+	current_health = max_health
+	
+	# Find the player in the scene tree. 
+	# Note: Make sure your Player node in Main is in a group called \"player\"
+	player = get_tree().get_first_node_in_group(\"player\")
+	
+	# Setup and start the evolution timer
+	evolve_timer.wait_time = 5.0
+	evolve_timer.timeout.connect(_on_evolve_timer_timeout)
+	evolve_timer.start()
+
+func _physics_process(_delta: float) -> void:
+	if player:
+		# Top-down movement: move directly towards the player
+		var direction = global_position.direction_to(player.global_position)
+		velocity = direction * base_speed
+		move_and_slide()
+
+func _on_evolve_timer_timeout() -> void:
+	# --- Evolution Logic ---
+	base_speed *= 1.2
+	max_health *= 1.5
+	current_health = max_health # Fully heal on evolution
+	damage *= 1.2
+	
+	# Increase the time it takes to evolve next time
+	evolve_timer.wait_time *= 1.2
+	evolve_timer.start()
+	
+	# Make the enemy slightly larger to show it evolved
+	scale *= 1.1
+	
+	# (Optional) If you have an AnimationPlayer, you can play an evolve flash here
+	# $AnimationPlayer.play(\"evolve\")
+"
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bwqmi"]
+radius = 5.0
+height = 14.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_228yj"]
+radius = 6.0827627
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ww5lp"]
+size = Vector2(14, 14)
+
+[node name="Enemey" type="CharacterBody2D" unique_id=56853108]
+script = SubResource("GDScript_7ubnb")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1239386624]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=232929229]
-shape = SubResource("CircleShape2D_ww5lp")
-script = ExtResource("1_gt117")
+shape = SubResource("CapsuleShape2D_bwqmi")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=394773025]
+
+[node name="EvolveTimer" type="Timer" parent="." unique_id=790537966]
+
+[node name="HitBox" type="Area2D" parent="." unique_id=761058700]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox" unique_id=486263021]
+shape = SubResource("CircleShape2D_228yj")
+
+[node name="HurtBox" type="Area2D" parent="." unique_id=1348970346]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox" unique_id=1140808956]
+shape = SubResource("RectangleShape2D_ww5lp")
