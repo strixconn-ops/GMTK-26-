@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://dgaakguodknti"]
 
+[ext_resource type="Script" uid="uid://d10f0s1crysh6" path="res://scripts/game_over.gd" id="1_racf3"]
 [ext_resource type="FontFile" uid="uid://dfyiikwxllxi1" path="res://sprites and fonts/Curse of the Zombie.ttf" id="1_yxx3c"]
 [ext_resource type="Texture2D" uid="uid://dtoy7fnh2ixwd" path="res://WhatsApp Image 2026-07-25 at 09.31.22.jpeg" id="2_ccer4"]
 
@@ -39,6 +40,7 @@ offset_top = 26.0
 offset_bottom = 4.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_racf3")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1652775790]
 
@@ -80,7 +82,7 @@ theme_override_styles/focus = SubResource("StyleBoxFlat_glbon")
 text = "RETRY"
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=713004971]
-position = Vector2(590, 293)
+position = Vector2(565, 264)
 texture = ExtResource("2_ccer4")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1214232320]

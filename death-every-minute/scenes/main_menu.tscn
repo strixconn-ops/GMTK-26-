@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cyaq4wlw2uom8"]
 
+[ext_resource type="Script" uid="uid://x0nbffgc063s" path="res://scripts/main_menu.gd" id="1_bqqt6"]
 [ext_resource type="FontFile" uid="uid://dfyiikwxllxi1" path="res://sprites and fonts/Curse of the Zombie.ttf" id="1_ekxnf"]
 [ext_resource type="Texture2D" uid="uid://d20fmiwwhlq8o" path="res://download-Photoroom.png" id="2_ekxnf"]
 
@@ -49,6 +50,7 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_bqqt6")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1282313626]
 layout_mode = 1

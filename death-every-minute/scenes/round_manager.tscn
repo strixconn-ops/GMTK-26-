@@ -1,3 +1,6 @@
 [gd_scene format=3 uid="uid://cmgjv0ywwggfg"]
 
-[node name="Node2D" type="Node2D" unique_id=466358943]
+[ext_resource type="Script" uid="uid://bg1try3oh3evw" path="res://scripts/round_manager.gd" id="1_d0bj1"]
+
+[node name="round timer" type="Timer" unique_id=1615673347]
+script = ExtResource("1_d0bj1")

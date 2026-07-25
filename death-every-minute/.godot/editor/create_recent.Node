@@ -1,3 +1,4 @@
+Timer
 CanvasLayer
 CanvasGroup
 Node2D
@@ -11,5 +12,3 @@ TextureRect
 Label
 VBoxContainer
 TextureRect
-HBoxContainer
-MarginContainer
