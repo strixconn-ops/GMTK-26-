@@ -1,8 +1,33 @@
 [gd_scene format=3 uid="uid://dgaakguodknti"]
 
 [ext_resource type="FontFile" uid="uid://dfyiikwxllxi1" path="res://sprites and fonts/Curse of the Zombie.ttf" id="1_yxx3c"]
-[ext_resource type="FontFile" uid="uid://cq111jrctxmft" path="res://ERODED PERSONAL USE.ttf" id="2_8u835"]
 [ext_resource type="Texture2D" uid="uid://dtoy7fnh2ixwd" path="res://WhatsApp Image 2026-07-25 at 09.31.22.jpeg" id="2_ccer4"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nlkkf"]
+shadow_color = Color(0, 0, 0, 0.98039216)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="SystemFont" id="SystemFont_hka7f"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7vrkn"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 1)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fu7sn"]
+bg_color = Color(0.52906674, 0.52906674, 0.52906656, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jix8l"]
+bg_color = Color(0.3316394, 0.33163944, 0.3316393, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_glbon"]
+bg_color = Color(0.22670749, 0.22670752, 0.2267074, 1)
 
 [node name="GameOver" type="Control" unique_id=1314110433]
 layout_mode = 3
@@ -36,14 +61,23 @@ theme_override_colors/font_color = Color(0.38039216, 0.87058824, 0.16470589, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("1_yxx3c")
 theme_override_font_sizes/font_size = 64
+theme_override_styles/focus = SubResource("StyleBoxFlat_nlkkf")
 text = "GAME OVER"
 horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1802269534]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_8u835")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.20990783, 0.20990816, 0.20990863, 1)
+theme_override_colors/font_pressed_color = Color(0.34158427, 0.34158427, 0.3415842, 1)
+theme_override_colors/font_hover_color = Color(0.45581716, 0.45581722, 0.45581824, 1)
+theme_override_fonts/font = SubResource("SystemFont_hka7f")
 theme_override_font_sizes/font_size = 45
-text = "Retry"
+theme_override_styles/normal = SubResource("StyleBoxFlat_7vrkn")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_fu7sn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_jix8l")
+theme_override_styles/focus = SubResource("StyleBoxFlat_glbon")
+text = "RETRY"
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=713004971]
 position = Vector2(590, 293)
