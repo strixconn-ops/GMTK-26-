@@ -1,2 +1,6 @@
 res://scenes/Player.tscn
+res://scripts/movement.gd
 res://scenes/Enemy.tscn
+res://scenes/shooter.tscn
+res://shooter.gd
+res://scenes/round_manager.tscn
