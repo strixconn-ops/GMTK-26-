@@ -10,10 +10,9 @@ signal upgrade_selected
 # REFERENCES
 # =====================================================
 
-@onready var menu = $Upgrade
-@onready var health_button = $UpgradeMenu/HealthButton
-@onready var damage_button = $UpgradeMenu/DamageButton
-@onready var speed_button = $UpgradeMenu/SpeedButton
+@onready var health_button = %HealthButton
+@onready var damage_button = %DamageButton
+@onready var speed_button = %SpeedButton
 
 var player = null
 
@@ -25,7 +24,7 @@ func _ready():
 
 	player = get_tree().get_first_node_in_group("Player")
 
-	menu.visible = false
+	visible = false
 
 	health_button.pressed.connect(_on_health_pressed)
 	damage_button.pressed.connect(_on_damage_pressed)
@@ -37,7 +36,7 @@ func _ready():
 
 func show_upgrade_menu():
 
-	menu.visible = true
+	visible = true
 
 	get_tree().paused = true
 
@@ -47,7 +46,7 @@ func show_upgrade_menu():
 
 func hide_upgrade_menu():
 
-	menu.visible = false
+	visible = false
 
 	get_tree().paused = false
 
