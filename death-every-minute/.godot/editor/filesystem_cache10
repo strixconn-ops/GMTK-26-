@@ -1,14 +1,15 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784949462
+::res://::1784969551
 download-Photoroom.png::CompressedTexture2D::9106295742830246968::1784949462::1784949463::1::::<><><>0<>0<>d75069b912486c65da75127fd2e3b0c1<>res://.godot/imported/download-Photoroom.png-0bcd8f917567b51c5685d37085ec3d91.ctex::
 download-Picsart-AiImageEnhancer-Photoroom.png::CompressedTexture2D::927515400946475010::1784825427::1784825427::1::::<><><>0<>0<>00b02174a976cc2080d558e23ce3e569<>res://.godot/imported/download-Picsart-AiImageEnhancer-Photoroom.png-f094d1a6c971cb173d52be7d6012a208.ctex::
 ERODED PERSONAL USE.ttf::FontFile::5951162258742735445::1784805353::1784805353::1::::<><><>0<>0<>da9fd9f04546713397272f82937fdda5<>res://.godot/imported/ERODED PERSONAL USE.ttf-4eb34e756834c34a0e2743a52f48ca55.fontdata::
 Evil Highway.ttf::FontFile::3531955325588261713::1784802906::1784802907::1::::<><><>0<>0<>65f9022d9e282432aa7d554450f2957c<>res://.godot/imported/Evil Highway.ttf-96fc4dce8bf44ae3960e17f9edb0eb49.fontdata::
+game_over.tscn::PackedScene::7580413317523249282::1784952474::0::1::::<><><>0<>0<><>::uid://dfyiikwxllxi1::::res://sprites and fonts/Curse of the Zombie.ttf<>uid://cq111jrctxmft::::res://ERODED PERSONAL USE.ttf<>uid://dtoy7fnh2ixwd::::res://WhatsApp Image 2026-07-25 at 09.31.22.jpeg
 gun-icon-svg-download-png-1191216.webp::CompressedTexture2D::6635929106987064294::1784805738::1784805738::1::::<><><>0<>0<>71487679b919ffc3ccf293a4a9504164<>res://.godot/imported/gun-icon-svg-download-png-1191216.webp-da51ea29711637eaf8e7976506c81d4b.ctex::
 health-icon-svg-download-png-6872925.webp::CompressedTexture2D::587155676458558949::1784804389::1784804389::1::::<><><>0<>0<>e071130083b2fa36d074ec78381f9ab1<>res://.godot/imported/health-icon-svg-download-png-6872925.webp-3a23259887672b128e8744731e7c7511.ctex::
-main_menu.tscn::PackedScene::6458398048149499585::1784826153::0::1::::<><><>0<>0<><>::res://Curse of the Zombie.ttf<>res://download-Photoroom.png
+main_menu.tscn::PackedScene::6458398048149499585::1784949588::0::1::::<><><>0<>0<><>::uid://dfyiikwxllxi1::::res://sprites and fonts/Curse of the Zombie.ttf<>uid://d20fmiwwhlq8o::::res://download-Photoroom.png
 OXIDO-Eroded-FFP.ttf::FontFile::7596788250969807007::1784805953::1784805953::1::::<><><>0<>0<>1a13c81a6401f503ac40ab925404c059<>res://.godot/imported/OXIDO-Eroded-FFP.ttf-ddb95ba2e182558b0606e131c406502f.fontdata::
-upgrade.tscn::PackedScene::38868985388293214::1784825862::0::1::::<><><>0<>0<><>::uid://cq111jrctxmft::::res://ERODED PERSONAL USE.ttf<>uid://imomrv87aogb::::res://health-icon-svg-download-png-6872925.webp<>uid://dgh680oyf3sqh::::res://OXIDO-Eroded-FFP.ttf<>uid://c1sq1u87kh3oc::::res://gun-icon-svg-download-png-1191216.webp<>uid://nhkbp4wcf7ji::::res://download-Picsart-AiImageEnhancer-Photoroom.png
+WhatsApp Image 2026-07-25 at 09.31.22.jpeg::CompressedTexture2D::8523266005043786075::1784952115::1784952116::1::::<><><>0<>0<>5cd7dbaf2b01647bddbb0c5332cc3930<>res://.godot/imported/WhatsApp Image 2026-07-25 at 09.31.22.jpeg-1e0da8c7997887fcf3c7e85ebedc1786.ctex::
 ::res://scenes/::1784825992
 Enemy.tscn::PackedScene::6246427355636715431::1784825965::0::1::::<><><>0<>0<><>::
 main_menu.tscn::PackedScene::3886698126838381170::1784825965::0::1::::<><><>0<>0<><>::uid://dfyiikwxllxi1::::res://sprites and fonts/Curse of the Zombie.ttf<>uid://6xk17o1iqb20::::res://sprites and fonts/download-Photoroom.png
