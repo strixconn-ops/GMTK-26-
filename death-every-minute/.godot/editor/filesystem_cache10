@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784970410
+::res://::1784971012
 download-Photoroom.png::CompressedTexture2D::9106295742830246968::1784967095::1784967194::1::::<><><>0<>0<>d75069b912486c65da75127fd2e3b0c1<>res://.godot/imported/download-Photoroom.png-0bcd8f917567b51c5685d37085ec3d91.ctex::
 download-Picsart-AiImageEnhancer-Photoroom.png::CompressedTexture2D::927515400946475010::1784967095::1784967194::1::::<><><>0<>0<>00b02174a976cc2080d558e23ce3e569<>res://.godot/imported/download-Picsart-AiImageEnhancer-Photoroom.png-f094d1a6c971cb173d52be7d6012a208.ctex::
 ERODED PERSONAL USE.ttf::FontFile::5951162258742735445::1784967095::1784967193::1::::<><><>0<>0<>da9fd9f04546713397272f82937fdda5<>res://.godot/imported/ERODED PERSONAL USE.ttf-4eb34e756834c34a0e2743a52f48ca55.fontdata::
@@ -19,21 +19,23 @@ Zombie-Tileset---_0481_Capa-482.png::CompressedTexture2D::6359543645064916797::1
 Zombie-Tileset---_0482_Capa-483.png::CompressedTexture2D::5426321353429937585::1784818620::1784965935::1::::<><><>0<>0<>3c94fb4dcab6f5da559789d557401918<>res://.godot/imported/Zombie-Tileset---_0482_Capa-483.png-b892045ef71db1b1847f358b7d88a538.ctex::
 Zombie-Tileset---_0483_Capa-484.png::CompressedTexture2D::8495875305789847636::1784818620::1784965935::1::::<><><>0<>0<>3c97a182b715b1e2f268f2b8a91877a2<>res://.godot/imported/Zombie-Tileset---_0483_Capa-484.png-85ed048066336928017735397598f799.ctex::
 Zombie-Tileset---_0484_Capa-485.png::CompressedTexture2D::5542396355534029456::1784818620::1784965935::1::::<><><>0<>0<>9102257fa995e37138f43151c52c6620<>res://.godot/imported/Zombie-Tileset---_0484_Capa-485.png-957b7087d203c3e9d2773de3a7c7c3c4.ctex::
-::res://scenes/::1784970074
+::res://scenes/::1784971012
 ball.tscn::PackedScene::6246427355636715431::1784967823::0::1::::<><><>0<>0<><>::
-game_manager.tscn::PackedScene::8321619628129087123::1784966897::0::1::::<><><>0<>0<><>::
-game_over.tscn::PackedScene::7580413317523249282::1784970015::0::1::::<><><>0<>0<><>::uid://dfyiikwxllxi1::::res://sprites and fonts/Curse of the Zombie.ttf<>uid://cq111jrctxmft::::res://ERODED PERSONAL USE.ttf<>uid://dtoy7fnh2ixwd::::res://WhatsApp Image 2026-07-25 at 09.31.22.jpeg
-main_menu.tscn::PackedScene::6458398048149499585::1784967414::0::1::::<><><>0<>0<><>::uid://dfyiikwxllxi1::::res://sprites and fonts/Curse of the Zombie.ttf<>uid://d20fmiwwhlq8o::::res://download-Photoroom.png
+game_manager.tscn::PackedScene::8321619628129087123::1784970956::0::1::::<><><>0<>0<><>::
+game_over.tscn::PackedScene::7580413317523249282::1784970626::0::1::::<><><>0<>0<><>::uid://d10f0s1crysh6::::res://scripts/game_over.gd<>uid://dfyiikwxllxi1::::res://sprites and fonts/Curse of the Zombie.ttf<>uid://cq111jrctxmft::::res://ERODED PERSONAL USE.ttf<>uid://dtoy7fnh2ixwd::::res://WhatsApp Image 2026-07-25 at 09.31.22.jpeg
+main_menu.tscn::PackedScene::6458398048149499585::1784970804::0::1::::<><><>0<>0<><>::uid://x0nbffgc063s::::res://scripts/main_menu.gd<>uid://dfyiikwxllxi1::::res://sprites and fonts/Curse of the Zombie.ttf<>uid://d20fmiwwhlq8o::::res://download-Photoroom.png
 Player.tscn::PackedScene::2361309313221226366::1784970074::0::1::::<><><>0<>0<><>::uid://2gppov0f86gt::::res://scripts/movement.gd<>uid://cjrmwh4v3sbi6::::res://Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png<>uid://m57amqpjahc1::::res://Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png<>uid://cjksyqg1kftvt::::res://Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png<>uid://vpxu8cw51vj0::::res://Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png<>uid://dtbp3byyr524o::::res://Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png<>uid://ck71ptx601fsy::::res://Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png<>uid://drn36l0q8v062::::res://Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png<>uid://eid68hy7dxga::::res://Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png<>uid://cwuu0wop1pvdl::::res://Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png
 round_manager.tscn::PackedScene::5628079063362131608::1784966928::0::1::::<><><>0<>0<><>::
 shooter.tscn::PackedScene::6871100454765937177::1784969974::0::1::::<><><>0<>0<><>::uid://7p8vjglwlvhg::::res://scripts/shooter.gd
-upgrade.tscn::PackedScene::38868985388293214::1784969046::0::1::::<><><>0<>0<><>::uid://mrl064hj5kux::::res://upgrade_manager.gd<>uid://cq111jrctxmft::::res://ERODED PERSONAL USE.ttf<>uid://imomrv87aogb::::res://health-icon-svg-download-png-6872925.webp<>uid://dgh680oyf3sqh::::res://OXIDO-Eroded-FFP.ttf<>uid://c1sq1u87kh3oc::::res://gun-icon-svg-download-png-1191216.webp<>uid://nhkbp4wcf7ji::::res://download-Picsart-AiImageEnhancer-Photoroom.png
-::res://scripts/::1784970008
+Upgrade_manager.tscn::PackedScene::38868985388293214::1784969046::0::1::::<><><>0<>0<><>::uid://mrl064hj5kux::::res://upgrade_manager.gd<>uid://cq111jrctxmft::::res://ERODED PERSONAL USE.ttf<>uid://imomrv87aogb::::res://health-icon-svg-download-png-6872925.webp<>uid://dgh680oyf3sqh::::res://OXIDO-Eroded-FFP.ttf<>uid://c1sq1u87kh3oc::::res://gun-icon-svg-download-png-1191216.webp<>uid://nhkbp4wcf7ji::::res://download-Picsart-AiImageEnhancer-Photoroom.png
+::res://scripts/::1784970804
 _audio_manager.gd::GDScript::4536586569873201369::1784966729::0::1::::<>Node<><>0<>0<><>::
 ball.gd::GDScript::2053647345733362038::1784966729::0::1::::<>CharacterBody2D<><>0<>0<><>::
 enemy_spawner.gd::GDScript::1759999425634685422::1784966729::0::1::::<>Node2D<><>0<>0<><>::
 game_manager.gd::GDScript::7348623418912446740::1784966729::0::1::::<>Node<><>0<>0<><>::
+game_over.gd::GDScript::9036130645030864613::1784970626::0::1::::<>Node<><>0<>0<><>::
 health_orb.gd::GDScript::5264741710798915664::1784966729::0::1::::<>Area2D<><>0<>0<><>::
+main_menu.gd::GDScript::1666744224843185582::1784970804::0::1::::<>Control<><>0<>0<><>::
 movement.gd::GDScript::1908423355462998547::1784966358::0::1::::<>CharacterBody2D<><>0<>0<><>::
 round_manager.gd::GDScript::2862412852947278848::1784966729::0::1::::<>Node<><>0<>0<><>::
 safezone_manager.gd::GDScript::2150006977504150358::1784966729::0::1::::<>Node2D<><>0<>0<><>::
