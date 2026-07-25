@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drn36l0q8v062"
-path="res://.godot/imported/Zombie-Tileset---_0479_Capa-480.png-102d663401280f256099a53dd9e6ac90.ctex"
+uid="uid://eid68hy7dxga"
+path="res://.godot/imported/Zombie-Tileset---_0480_Capa-481.png-586868440d944f0f81b8e9a98dba95c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png"
-dest_files=["res://.godot/imported/Zombie-Tileset---_0479_Capa-480.png-102d663401280f256099a53dd9e6ac90.ctex"]
+source_file="res://Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png"
+dest_files=["res://.godot/imported/Zombie-Tileset---_0480_Capa-481.png-586868440d944f0f81b8e9a98dba95c8.ctex"]
 
 [params]
 

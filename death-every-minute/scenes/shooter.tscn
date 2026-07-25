@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c45oax3booax2"]
+
+[ext_resource type="Script" uid="uid://7p8vjglwlvhg" path="res://shooter.gd" id="1_gt117"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ww5lp"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=56853108]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1239386624]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=232929229]
+shape = SubResource("CircleShape2D_ww5lp")
+script = ExtResource("1_gt117")

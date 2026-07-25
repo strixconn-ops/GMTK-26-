@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://8v3oi28rehny"]
+
+[ext_resource type="Script" uid="uid://2gppov0f86gt" path="res://scripts/movement.gd" id="1_bruh7"]
+[ext_resource type="Texture2D" uid="uid://cjrmwh4v3sbi6" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png" id="1_p0vlq"]
+[ext_resource type="Texture2D" uid="uid://m57amqpjahc1" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png" id="3_6eyey"]
+[ext_resource type="Texture2D" uid="uid://vpxu8cw51vj0" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png" id="4_d3wef"]
+[ext_resource type="Texture2D" uid="uid://drn36l0q8v062" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png" id="5_o4126"]
+[ext_resource type="Texture2D" uid="uid://eid68hy7dxga" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png" id="6_lkdrv"]
+[ext_resource type="Texture2D" uid="uid://ck71ptx601fsy" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png" id="7_p7iby"]
+[ext_resource type="Texture2D" uid="uid://dtbp3byyr524o" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png" id="8_0rnld"]
+[ext_resource type="Texture2D" uid="uid://cjksyqg1kftvt" path="res://sprites and fonts/assets/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png" id="9_srp4u"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ww5lp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_p0vlq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6eyey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_d3wef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_o4126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lkdrv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_p7iby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_0rnld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_p7iby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_srp4u")
+}],
+"loop": 1,
+"name": &" walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ww5lp"]
+radius = 4.1231055
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1776613088]
+script = ExtResource("1_bruh7")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1417773469]
+texture = ExtResource("1_p0vlq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=906699892]
+sprite_frames = SubResource("SpriteFrames_ww5lp")
+animation = &" walk"
+frame = 2
+frame_progress = 0.98860806
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1882263733]
+shape = SubResource("CircleShape2D_ww5lp")

@@ -1,0 +1,10 @@
+res://scenes/Player.tscn
+res://scripts/movement.gd
+res://scenes/Enemy.tscn
+res://scenes/shooter.tscn
+res://shooter.gd
+res://scenes/round_manager.tscn
+res://scenes/main_menu.tscn
+res://scenes/upgrade.tscn
+res://scenes/ball.tscn
+res://upgrade_manager.gd
