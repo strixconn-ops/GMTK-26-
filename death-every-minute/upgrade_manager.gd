@@ -10,7 +10,7 @@ signal upgrade_selected
 # REFERENCES
 # =====================================================
 
-@onready var menu = $UpgradeMenu
+@onready var menu = $Upgrade
 @onready var health_button = $UpgradeMenu/HealthButton
 @onready var damage_button = $UpgradeMenu/DamageButton
 @onready var speed_button = $UpgradeMenu/SpeedButton

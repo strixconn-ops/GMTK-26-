@@ -1,3 +1,5 @@
+CanvasLayer
+CanvasGroup
 Node2D
 CollisionShape2D
 Sprite2D
@@ -11,8 +13,3 @@ VBoxContainer
 TextureRect
 HBoxContainer
 MarginContainer
-Button
-CenterContainer
-ColorRect
-Panel
-Control
