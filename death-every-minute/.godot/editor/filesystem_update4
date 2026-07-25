@@ -8,3 +8,4 @@ res://scenes/main_menu.tscn
 res://scenes/upgrade.tscn
 res://scenes/ball.tscn
 res://upgrade_manager.gd
+res://scenes/game_over.tscn

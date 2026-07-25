@@ -46,7 +46,7 @@ theme_override_font_sizes/font_size = 45
 text = "Retry"
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=713004971]
-position = Vector2(590, 293)
+position = Vector2(565, 264)
 texture = ExtResource("2_ccer4")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1214232320]
