@@ -14,3 +14,7 @@ func _on_retry_pressed():
 	# Load the main menu or main game scene. 
 	# Make sure to change this path to wherever your actual game starts!
 	get_tree().change_scene_to_file("res://scenes/main_menu.tscn")
+
+
+func _on_button_mouse_entered() -> void:
+	pass # Replace with function body.
