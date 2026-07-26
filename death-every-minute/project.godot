@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="DEATH EVERY MINUTE"
-run/main_scene="uid://dgaakguodknti"
+run/main_scene="uid://q68j6mgl3k5h"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://sprites and fonts/icon.svg"
 

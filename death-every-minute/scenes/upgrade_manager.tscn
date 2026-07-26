@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://s3fwqr84oti"]
 
-[ext_resource type="Script" uid="uid://mrl064hj5kux" path="res://upgrade_manager.gd" id="1_jnjjj"]
-[ext_resource type="FontFile" uid="uid://cq111jrctxmft" path="res://ERODED PERSONAL USE.ttf" id="1_klxme"]
-[ext_resource type="Texture2D" uid="uid://imomrv87aogb" path="res://health-icon-svg-download-png-6872925.webp" id="2_moly5"]
-[ext_resource type="FontFile" uid="uid://dgh680oyf3sqh" path="res://OXIDO-Eroded-FFP.ttf" id="3_diibn"]
-[ext_resource type="Texture2D" uid="uid://c1sq1u87kh3oc" path="res://gun-icon-svg-download-png-1191216.webp" id="4_qyjxr"]
-[ext_resource type="Texture2D" uid="uid://nhkbp4wcf7ji" path="res://download-Picsart-AiImageEnhancer-Photoroom.png" id="5_mehhu"]
+[ext_resource type="Script" uid="uid://mrl064hj5kux" path="res://scripts/upgrade_manager.gd" id="1_jnjjj"]
+[ext_resource type="FontFile" uid="uid://cq111jrctxmft" path="res://sprites and fonts/ERODED PERSONAL USE.ttf" id="1_klxme"]
+[ext_resource type="Texture2D" uid="uid://imomrv87aogb" path="res://sprites and fonts/health-icon-svg-download-png-6872925.webp" id="2_moly5"]
+[ext_resource type="FontFile" uid="uid://dgh680oyf3sqh" path="res://sprites and fonts/OXIDO-Eroded-FFP.ttf" id="3_diibn"]
+[ext_resource type="Texture2D" uid="uid://c1sq1u87kh3oc" path="res://sprites and fonts/gun-icon-svg-download-png-1191216.webp" id="4_qyjxr"]
+[ext_resource type="Texture2D" uid="uid://nhkbp4wcf7ji" path="res://sprites and fonts/download-Picsart-AiImageEnhancer-Photoroom.png" id="5_mehhu"]
 
 [node name="UpgradeMenu" type="CanvasLayer" unique_id=2131040229]
 process_mode = 3

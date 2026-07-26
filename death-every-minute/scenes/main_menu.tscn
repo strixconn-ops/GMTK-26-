@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://x0nbffgc063s" path="res://scripts/main_menu.gd" id="1_bqqt6"]
 [ext_resource type="FontFile" uid="uid://dfyiikwxllxi1" path="res://sprites and fonts/Curse of the Zombie.ttf" id="1_ekxnf"]
-[ext_resource type="Texture2D" uid="uid://d20fmiwwhlq8o" path="res://download-Photoroom.png" id="2_ekxnf"]
+[ext_resource type="Texture2D" uid="uid://d20fmiwwhlq8o" path="res://sprites and fonts/download-Photoroom.png" id="2_ekxnf"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nogid"]
 
